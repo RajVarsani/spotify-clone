@@ -1,0 +1,62 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 70px;
+  background-color: #282828;
+  color: white;
+  padding: 10px 20px;
+}
+
+.footer__right {
+  flex: 0.3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+}
+.footer__center {
+  flex: 0.4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px;
+  max-width: 300px;
+}
+
+.footer__icon {
+  cursor: pointer;
+}
+
+.footer__green {
+  color: #1ed15e;
+  cursor: pointer;
+}
+.footer__icon:hover,
+.footer__green:hover {
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.1) !important;
+}
+
+.footer__left {
+  flex: 0.3;
+  display: flex;
+  align-items: center;
+}
+
+.footer__albumLogo {
+  height: 50px;
+  width: 50px;
+  margin-right: 20px;
+  object-fit: contain;
+}
+
+.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-true {
+  margin-right: 18%;
+}
+
+.footer__right * .MuiSlider-root {
+  color: green;
+}
