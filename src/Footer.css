@@ -3,7 +3,7 @@
   justify-content: space-between;
   position: fixed;
   bottom: 0;
-  width: 100vw;
+  width: 99.9vw;
   height: 70px;
   background-color: #282828;
   color: white;
@@ -23,7 +23,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 100px;
-  max-width: 300px;
+  max-width: 299.9px;
 }
 
 .footer__icon {
